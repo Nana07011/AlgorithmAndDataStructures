@@ -6,14 +6,14 @@ namespace Program
     {
         static void Main()
         {
-            string a = "aba"; //1 задание
-            string b = "aabba";
-            Console.WriteLine(CanConstruct(a, b));
+            string a = "silent"; //1 задание
+            string b = "listen";
+            //Console.WriteLine(CanConstruct(a, b));
             int[] array = { 3, 3, 1, 2, 3, 4, 5, 6, 7, 8, 2 };//2 задание 
-            Console.WriteLine(FindLucky(array));
+            //Console.WriteLine(FindLucky(array));
             int[] nums = { 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0 };//3 задание
             int k = 2;
-            Console.WriteLine(LongestOnes(nums,k));
+            //Console.WriteLine(LongestOnes(nums,k));
         }
         public static bool CanConstruct(string ransomNote, string magazine)//1 задание
         {
